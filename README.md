@@ -12,13 +12,18 @@ React component for [Chartist.js](https://gionkunz.github.io/chartist-js/)
 ```
 $ npm install react-chartist --save
 ```
+Chartist is a peer dependency to react chartist. You need to install it if you do not have it installed already.
+
+```
+$ npm install chartist --save
+```
 
 ### Usage
 
 ```JavaScript
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ChartistGraph from '../index';
+import ChartistGraph from 'react-chartist';
 
 class Pie extends React.Component {
   render() {
@@ -111,4 +116,3 @@ MIT
 [npm-url]: https://npmjs.org/package/react-chartist
 [downloads-image]: http://img.shields.io/npm/dm/react-chartist.svg?style=flat-square
 [downloads-url]: https://npmjs.org/package/react-chartist
-

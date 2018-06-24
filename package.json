@@ -46,5 +46,11 @@
   },
   "dependencies": {
     "prop-types": "^15.5.8"
-  }
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ]
 }
